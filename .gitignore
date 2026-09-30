@@ -1,0 +1,9 @@
+.DS_Store
+*.dbc
+*.ipynb_checkpoints/
+.databricks/
+**/.git/
+*.token
+*.key
+*.pem
+*.env
