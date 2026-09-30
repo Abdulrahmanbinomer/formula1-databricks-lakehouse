@@ -1,6 +1,5 @@
 # Formula 1 Incremental Lakehouse on Azure Databricks
-
-> Hands-on course project completed while following an Azure Databricks/Udemy course. This repository documents my own workspace execution, debugging, incremental-processing implementation, and understanding. It does not claim that the underlying course architecture or instructor-provided patterns were invented entirely by me.
+.
 
 ## Overview
 
