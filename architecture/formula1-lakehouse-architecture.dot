@@ -1,0 +1,12 @@
+digraph G {
+  graph [rankdir=LR, bgcolor="white", pad="0.35", nodesep="0.45", ranksep="0.6"];
+  node [shape=box, style="rounded,filled", fontname="Arial", fontsize=12, margin="0.18,0.12", color="#16325c", fontcolor="#10233f"];
+  edge [color="#55708f", penwidth=1.5, arrowsize=0.8];
+  source [label="Formula 1 source files\nCircuits • races • constructors\nDrivers • results • sprints", fillcolor="#e8f1fb"];
+  landing [label="Landing\nUnity Catalog external volume\nBatch folders", fillcolor="#f4ecda"];
+  bronze [label="Bronze Delta tables\nMetadata + batch_id\nreplaceWhere per batch", fillcolor="#f4d8bf"];
+  silver [label="Silver Delta tables\nValidate • deduplicate • standardise\nMERGE by business key", fillcolor="#dcebdc"];
+  gold [label="Gold Delta model\nDimensions + session results fact", fillcolor="#e3ddf3"];
+  analytics [label="Analytics\nDriver standings\nRace/session analysis", fillcolor="#d9edf3"];
+  source -> landing -> bronze -> silver -> gold -> analytics;
+}

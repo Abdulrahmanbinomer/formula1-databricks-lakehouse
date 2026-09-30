@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
+  <style>text{font-family:Arial,sans-serif;fill:#10233f}.t{font-size:24px;font-weight:700}.s{font-size:17px}.box{stroke:#16325c;stroke-width:2;rx:18;ry:18}</style><rect width="1100" height="700" fill="white"/>
+  <text x="550" y="48" text-anchor="middle" class="t">Verified Incremental Batch Flow</text>
+  <g text-anchor="middle"><rect class="box" x="350" y="85" width="400" height="80" fill="#f4ecda"/><text x="550" y="118" class="t">Landing batch folders</text><text x="550" y="145" class="s">/Volumes/formula1-incr/landing/files/</text>
+  <rect class="box" x="350" y="210" width="400" height="95" fill="#e8f1fb"/><text x="550" y="245" class="t">Compare with batch_control</text><text x="550" y="275" class="s">tracked statuses: in_progress, completed</text>
+  <rect class="box" x="350" y="350" width="400" height="85" fill="#dcebdc"/><text x="550" y="385" class="t">Select earliest unprocessed batch</text><text x="550" y="413" class="s">set p_batch_id and has_batch task values</text>
+  <rect class="box" x="350" y="480" width="400" height="70" fill="#f4d8bf"/><text x="550" y="522" class="t">Append in_progress status</text>
+  <rect class="box" x="60" y="590" width="400" height="70" fill="#e3ddf3"/><text x="260" y="632" class="t">Bronze → Silver → Gold</text>
+  <rect class="box" x="640" y="590" width="400" height="70" fill="#d9edf3"/><text x="840" y="620" class="t">Delta MERGE control row</text><text x="840" y="645" class="s">status = completed</text></g>
+  <g stroke="#55708f" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M550 165v40"/><path d="M550 305v40"/><path d="M550 435v40"/><path d="M510 550l-210 35"/><path d="M590 550l210 35"/></g><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#55708f"/></marker></defs>
+</svg>

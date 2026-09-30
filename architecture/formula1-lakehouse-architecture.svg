@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="430" viewBox="0 0 1500 430">
+  <style>text{font-family:Arial,sans-serif;fill:#10233f}.t{font-size:23px;font-weight:700}.s{font-size:16px}.box{stroke:#16325c;stroke-width:2;rx:18;ry:18}</style>
+  <rect width="1500" height="430" fill="white"/>
+  <text x="750" y="48" text-anchor="middle" class="t">Formula 1 Incremental Lakehouse</text>
+  <g text-anchor="middle"><rect class="box" x="35" y="135" width="200" height="145" fill="#e8f1fb"/><text x="135" y="175" class="t">Source files</text><text x="135" y="205" class="s">circuits · races</text><text x="135" y="230" class="s">constructors · drivers</text><text x="135" y="255" class="s">results · sprints</text>
+  <rect class="box" x="285" y="135" width="200" height="145" fill="#f4ecda"/><text x="385" y="175" class="t">Landing</text><text x="385" y="205" class="s">Unity Catalog volume</text><text x="385" y="230" class="s">batch folders</text>
+  <rect class="box" x="535" y="135" width="200" height="145" fill="#f4d8bf"/><text x="635" y="175" class="t">Bronze</text><text x="635" y="205" class="s">Delta tables</text><text x="635" y="230" class="s">metadata + batch_id</text>
+  <rect class="box" x="785" y="135" width="200" height="145" fill="#dcebdc"/><text x="885" y="175" class="t">Silver</text><text x="885" y="205" class="s">validate · deduplicate</text><text x="885" y="230" class="s">standardise · MERGE</text>
+  <rect class="box" x="1035" y="135" width="200" height="145" fill="#e3ddf3"/><text x="1135" y="175" class="t">Gold</text><text x="1135" y="205" class="s">dimensions</text><text x="1135" y="230" class="s">session results fact</text>
+  <rect class="box" x="1285" y="135" width="180" height="145" fill="#d9edf3"/><text x="1375" y="175" class="t">Analytics</text><text x="1375" y="205" class="s">driver standings</text><text x="1375" y="230" class="s">race/session views</text></g>
+  <g stroke="#55708f" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M235 207h45"/><path d="M485 207h45"/><path d="M735 207h45"/><path d="M985 207h45"/><path d="M1235 207h45"/></g><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#55708f"/></marker></defs>
+</svg>
